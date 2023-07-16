@@ -12,7 +12,7 @@ export const Transaction = ({ transaction }) => {
       <span>
         {sign}Rp.{Math.abs(transaction.amount)}
       </span>
-      <button onClick={() => deleteTransaction(transaction.id)} class="delete-btn">x</button>
+      <button onClick={() => deleteTransaction(transaction.id)} className="delete-btn">x</button>
     </li>
   );
 };
